@@ -11,6 +11,8 @@ class Model:
         self._artists_list = DAO.get_all_artists()
         print(f"Artisti: {self._artists_list}")
 
+        print("prova commit and push")
+
     def load_artists_with_min_albums(self, min_albums):
         pass
 
